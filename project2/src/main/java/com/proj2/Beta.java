@@ -1,0 +1,16 @@
+package com.proj2;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Beta
+{
+	@RequestMapping("/details")
+	public String details() 
+	{
+		return "index1";
+		
+	}
+
+}
